@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru, english">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="author" content="Елизавета Александровна">
+        <meta name="description" content="Биография">
+        <meta name="keywords" content="Резюме, Биография, Визитка, Сайт">
+        
+        <title>Портфолио Елизаветы</title>
+
+        <link rel="stylesheet" href="siteMy.css">
+
+    </head>
+
+    <body>
+       
+       <!-- <header class="container">
+            <span class="res">Моё Резюме</span>
+            <nav>
+                <ul>
+                    <li><a href='#'>Обо мне</a></li>
+                    <li><a href='#'>Навыки</a></li>
+                    <li><a href='#'>Проекты</a></li>
+                    <li><a href='#'>Достижения</a></li>
+                    <li><a href='#'>Контакты</a></li>
+                </ul>
+                <div class="right">
+                    <div class="bt"><a href="#">Резюме</a></div>
+                    <button class="btn"><a href='#'>Связаться</a></button>
+                </div>
+            </nav>
+
+       </header> -->
+
+            <header class="container">
+                <span class="res">Моё Резюме</span>
+
+                <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="overlay" id="overlay"></div>
+
+                <nav id="mainNav">
+                    <ul>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#skills">Навыки</a></li>
+                        <li><a href="#project">Проекты</a></li>
+                        <li><a href="#whyMe">Почему я</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                    <div class="right">
+                        <a href="скоро" download class="bt"><span>Резюме</span></a>
+                        <button class="btn"><a href="#contacts">Связаться</a></button>
+                    </div>
+                </nav>
+            </header>
+
+       <div class="hero" id="about">
+            <div class="hero--info">
+                <h2>Обо мне</h2>
+                <h1>Персональное резюме</h1>
+                <p>Я - начинающий специалист, который делает первые шаги в сфере IT. Изучаю программирование, создаю собственные проекты и готовлюсь к поступлению на направление "Прикладная информатика". Сейчас исследую разные области информационных технологий, чтобы выбрать специализацию, в которой смогу реализовать себя.</p>
+                <p>Ответственно подхожу к задачам, быстро обучаюсь и стремлюсь к профессиональному развитию.</p>
+                <button class="btnn"><a href="#contacts">Написать мне</a></button>
+            </div>
+            
+            <img src="images/lol.jpg" alt="fhoto">
+       </div>
+       <div class="line"></div>
+
+
+       <div class="divider"></div>
+       <section class="skills" id="skills">
+        <h2>Навыки</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="icon">
+                    <img src="https://cdn.simpleicons.org/html5/8B5CF6" alt="html">
+                </div>
+                <h3>HTML5</h3>
+                <p>Структура и семантика</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="https://api.iconify.design/simple-icons:css3.svg?color=%238B5CF6" alt="css">
+                </div>
+                <h3>CSS3</h3>
+                <p>Стилизация и адаптивная верстка</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="https://cdn.simpleicons.org/javascript/8B5CF6" alt="js">
+                </div>
+                <h3>JavaScript</h3>
+                <p>Основы языка, работы с DOM</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="https://cdn.simpleicons.org/git/8B5CF6" alt="git">
+                </div>
+                <h3>Git/GitHub</h3>
+                <p>Система контроля версий</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="https://cdn.simpleicons.org/figma/8B5CF6" alt="fig">
+                </div>
+                <h3>Figma</h3>
+                <p>Работа с макетами и прототипами</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="https://api.iconify.design/lucide:monitor-smartphone.svg?color=%23FFFFFF" alt="ad">
+                </div>
+                <h3>Адаптивность</h3>
+                <p>Кроссбраузерная и мобильная верстка</p>
+            </div>
+        </div>
+       </section>
+       <div class="divider"></div>
+
+    
+       <section class="project" id="project">
+        <h2>Мои проекты</h2>
+
+        <div class="wrapper">
+            <div class="track" id="Track">
+                <div class="card2">
+                    <div class="preview">
+                        <img src="images/2026-07-17_18-45-15.png" alt="Превью">
+                    </div>
+                    <div class="info2">
+                        <div class="header2">
+                            <h3>Персональный сайт-портфолио</h3>
+                            <span class="tag">Веб-разработка</span>
+                        </div>
+                        <p>Мой первый проект - сайт-портфолио, разработанный с нуля. Реализована адаптивная верстка, современный дизайн и структура резюме.</p>
+                        <p>В процессе работы я изучила основы верстки, работу с макетами и улучшила понимание UI/UX</p>
+                        <div class="buttons">
+                            <a href="#" class="btn-primary">Смотреть проект ↗</a>
+                            <a href="#ссылка на мойпроект" class="btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /*след проект*/ -->
+
+            </div>
+            <div class="arrows-group">
+                <button class="arrow arrow-left" id="prevBtn" aria-label="Предыдущий проект">←</button>
+                <button class="arrow arrow-right" id="nextBtn" aria-label="Следующий проект">→</button>
+            </div>
+        </div>
+       </section>
+       <div class="divider"></div>
+
+
+       <section class="whyMe" id="whyMe">
+        <h2>Почему именно я</h2>
+
+        <div class="grid3">
+
+            <div class="item3">
+                <div class="icon3">
+                    <img src="https://api.iconify.design/lucide:zap.svg?color=%238B5CF6" alt="">
+                </div>
+                <h3>Быстро обучаюсь</h3>
+                <p>За короткое время освоила веб-разработку и продолжаю развиваться.</p>
+            </div>
+
+            <div class="item3">
+                <div class="icon3">
+                    <img src="https://api.iconify.design/lucide:target.svg?color=%238B5CF6" alt="">
+                </div>
+                <h3>Ответственный подход</h3>
+                <p>Всегда довожу задачи до конца, внимательно отношусь к деталям и качеству работы.</p>
+            </div>
+
+            <div class="item3">
+                <div class="icon3">
+                    <img src="https://api.iconify.design/lucide:book-open.svg?color=%238B5CF6" alt="">
+                </div>
+                <h3>Самостоятельность</h3>
+                <p>Изучаю технологии сама, постоянно практикуюсь и ищу новые способы улучшить свои навыки.</p>
+            </div>
+
+            <div class="item3">
+                <div class="icon3">
+                    <img src="https://api.iconify.design/lucide:users.svg?color=%238B5CF6" alt="">
+                </div>
+                <h3>Командный игрок</h3>
+                <p>Умею слшать, нахожу общий язык и готова работать в команде для достижений целей.</p>
+            </div>
+
+            <div class="item3">
+                <div class="icon3">
+                    <img src="https://api.iconify.design/lucide:star.svg?color=%238B5CF6" alt="">
+                </div>
+                <h3>Мотивация</h3>
+                <p>Стремлюсь постоянно развиваться, осваивать новые технологии и получать практический опыт в IT.</p>
+            </div>
+        </div>
+       </section>
+       <div class="divider"></div>
+
+
+
+       <section class="about-cards">
+
+        <div class="info-card">
+            <h3>Образование</h3>
+            <ul class="info-list">
+                <li>
+                    <div class="info-icon">
+                        <img src="https://api.iconify.design/lucide:graduation-cap.svg?color=%238B5CF6" alt="">
+                    </div>
+                    <div>
+                        <p class="info-title">Окончила 11 класс</p>
+                        <p class="info-subtitle">Инженерный профиль</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="info-icon">
+                        <img src="https://api.iconify.design/lucide:award.svg?color=%238B5CF6" alt="">
+                    </div>
+                    <div>
+                        <p class="info-title">Сертификат</p>
+                        <p class="info-subtitle">Об успешном окончании инженерного класса</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="info-icon">
+                        <img src="https://api.iconify.design/lucide:landmark.svg?color=%238B5CF6" alt="">
+                    </div>
+                    <div>
+                        <p class="info-title">Поступаю в вуз</p>
+                        <p class="info-subtitle">Направление "Прикладная информатика"</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="info-card interests">
+            <h3>Интересы</h3>
+            <ul class="simple-list">
+                <li>Веб-разработка</li>
+                <li>Современные IT-технологии</li>
+                <li>Изучение различных направлений IT</li>
+                <li>Постоянное развитие</li>
+            </ul>
+        </div>
+
+
+        <div class="info-card">
+            <h3>Языки</h3>
+
+            <div class="lang-item">
+                <div class="lang-header">
+                    <div class="lang-name">
+                        <img src="https://api.iconify.design/circle-flags:ru.svg" alt="">
+                        <p class="info-title">Русский</p>
+                    </div>
+                    <span class="lang-percent">100%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+            </div>
+
+
+            <div class="lang-item">
+                <div class="lang-header">
+                    <div class="lang-name">
+                        <img src="https://api.iconify.design/circle-flags:gb.svg" alt="">
+                        <p class="info-title">Английский</p>
+                    </div>
+                    <span class="lang-percent">38%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 38%;"></div>
+                </div>
+            </div>
+        </div>
+       </section>
+       <div class="divider"></div>
+
+
+
+       <section class="contacts" id="contacts">
+        <h2>Контакты</h2>
+        <div class="contacts-grid">
+
+            <div class="contacts-card">
+                <div class="contacts-icon">
+                    <img src="https://api.iconify.design/lucide:mail.svg?color=%238B5CF6" alt="">
+                </div>
+                <div>
+                    <p class="info-title">Почта</p>
+                    <p class="info-subtitle">Yri_tamyra19@mail.ru</p>
+                </div>
+            </div>
+
+            <div class="contacts-card">
+                <div class="contacts-icon">
+                    <img src="https://api.iconify.design/lucide:send.svg?color=%238B5CF6" alt="">
+                </div>
+                <div>
+                    <p class="info-title">Telegram</p>
+                    <p class="info-subtitle">@gwaay1489</p>
+                </div>
+            </div>
+
+            <div class="contacts-card">
+                <div class="contacts-icon">
+                    <img src="https://api.iconify.design/lucide:github.svg?color=%238B5CF6" alt="">
+                </div>
+                <div>
+                    <p class="info-title">GitHub</p>
+                    <p class="info-subtitle">пока хз</p>
+                </div>
+            </div>
+
+            <div class="contacts-card">
+                <div class="contacts-icon">
+                    <img src="https://api.iconify.design/simple-icons:vk.svg?color=%238B5CF6" alt="">
+                </div>
+                <div>
+                    <p class="info-title">ВКонтакте</p>
+                    <p class="info-subtitle">https://vk.ru/lkorolyova5</p>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <div class="divider"></div>
+
+       <script src="siteMy.js"></script>
+
+    </body>
+
+</html>
