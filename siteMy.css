@@ -281,7 +281,7 @@ h2 {
   border-radius: 16px;
   padding: 24px;
 }
-/* .card2 без hover-подъёма — карточка проекта намеренно остаётся на месте */
+
 
 .preview {
   border-radius: 12px;
@@ -592,9 +592,6 @@ h2 {
 }
 
 
-/* ===================================================
-   АДАПТИВНОСТЬ ДЛЯ ПЛАНШЕТОВ И ТЕЛЕФОНОВ
-   =================================================== */
 
 @media (max-width: 900px) {
 
@@ -640,7 +637,7 @@ h2 {
   transition: all 0.3s ease;
 }
 
-/* крестик вместо гамбургера, когда меню открыто */
+
 .burger.active span:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -735,38 +732,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-/* @media (max-width: 768px) {
 
-  .container {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 16px 20px;
-    gap: 16px;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 0;
-    width: 100%;
-    gap: 16px;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 12px;
-    margin: 0;
-  }
-
-  .right {
-    margin-left: 0;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .card2 {
-    grid-template-columns: 1fr;
-  } */
 
   .buttons {
     justify-content: flex-start;
